@@ -254,10 +254,6 @@ const generateHTML = (pageName) => {
 };
 
 switch (window.location.hostname) {
-  case "www.youtube.com":
-    document.head.innerHTML = generateSTYLES();
-    document.body.innerHTML = generateHTML("youtube");
-    break;
   case "www.facebook.com":
     document.head.innerHTML = generateSTYLES();
     document.body.innerHTML = generateHTML("facebook");
